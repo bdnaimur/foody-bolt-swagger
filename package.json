@@ -1,0 +1,31 @@
+{
+  "name": "food-delivery-app-backend",
+  "version": "1.0.0",
+  "description": "Backend for a comprehensive food delivery app",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "build": "netlify deploy --prod"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12",
+    "jsonwebtoken": "^8.5.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "cors": "^2.8.5",
+    "helmet": "^4.6.0",
+    "morgan": "^1.10.0",
+    "express-validator": "^6.13.0",
+    "multer": "^1.4.3",
+    "socket.io": "^4.3.1",
+    "swagger-ui-express": "^4.1.6",
+    "swagger-jsdoc": "^6.1.0",
+    "serverless-http": "^2.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14",
+    "netlify-cli": "^12.0.11"
+  }
+}
